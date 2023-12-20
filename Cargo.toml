@@ -10,5 +10,8 @@ actix = "0.13.1"
 actix-rt = "2.9.0"
 actix-web = "4.4.0"
 actix-web-actors = "4.2.0"
-axum = "0.7.2"
-tokio = { version = "1.35.0", features = ["macros", "rt-multi-thread"] }
+axum = { version = "0.7.2", features = ["ws"] }
+futures-util = "0.3.29"
+tokio = { version = "1.35.0", features = ["full"] }
+tokio-tungstenite = "0.16"
+url = "2.5.0"
